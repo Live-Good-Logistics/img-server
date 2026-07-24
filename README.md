@@ -30,10 +30,11 @@ from a Digital Ocean droplet:
   no SSH needed
 - SSH access: `ssh root@45.55.65.208` (macbook key)
 
-Current URLs:
+Stable URLs (A record `img` → `45.55.65.208` in GoDaddy DNS — plain DNS,
+no HTTPS-forcing proxy, or packing slips break):
 
-- http://45.55.65.208/Kabloom.png
-- http://45.55.65.208/plantseed.png
-- http://45.55.65.208/yardwork.png
+- http://img.livegoodlogistics.com/Kabloom.png
+- http://img.livegoodlogistics.com/plantseed.png
+- http://img.livegoodlogistics.com/yardwork.png
 
 The droplet was provisioned with the cloud-init script in `deploy/cloud-init.sh`.
