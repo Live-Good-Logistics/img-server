@@ -3,7 +3,7 @@ set -e
 apt-get update
 DEBIAN_FRONTEND=noninteractive apt-get install -y nginx git
 
-git clone https://github.com/jujubosh/img-server /opt/img-server
+git clone https://github.com/Live-Good-Logistics/img-server /opt/img-server
 
 cat > /etc/nginx/sites-available/img-server <<'EOF'
 server {
